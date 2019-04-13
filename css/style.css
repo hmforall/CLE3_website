@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  height: 10vh;
+  position: fixed;
+  background: yellow;
+  width: 100%;
+  top: 0;
+}
+header{
+  margin-top: 10vh;
+}
+.screen{
+  height: 90vh;
+  background: green;
+  border-bottom: 1px solid black;
+}
+.onethirth{
+  height: 33vh;
+}
