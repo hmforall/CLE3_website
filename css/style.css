@@ -3,6 +3,17 @@
   padding: 0;
 }
 
+h2{
+  font-size: 90px;
+  text-align: center;
+  color: white;
+  text-shadow:  0px 0px 30px pink;
+}
+
+h3{
+
+}
+
 nav{
   height: 10vh;
   position: fixed;
@@ -12,7 +23,13 @@ nav{
 }
 header{
   margin-top: 10vh;
+  background: url("../img/steven-kamenar-11107-unsplash.jpg")no-repeat center!important;
+  background-size: cover;
 }
+header h2{
+  padding-top: 40vh;
+}
+
 .screen{
   height: 90vh;
   background: green;
