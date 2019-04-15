@@ -11,7 +11,23 @@ h2{
 }
 
 h3{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  text-shadow:  0px 0px 30px pink;
 
+}
+
+h4{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+p{
+  padding: 40px 100px;
+  font-size: 20px;
+  text-align: center;
 }
 
 nav{
@@ -20,6 +36,7 @@ nav{
   background: yellow;
   width: 100%;
   top: 0;
+  z-index: 10;
 }
 header{
   margin-top: 10vh;
@@ -34,7 +51,29 @@ header h2{
   height: 90vh;
   background: green;
   border-bottom: 1px solid black;
+  position: relative;
 }
 .onethirth{
   height: 33vh;
+  background: pink;
+}
+.onethirth h3{
+  padding-top: 10vh;
+}
+
+.img{
+  overflow:hidden;
+}
+
+.img img{
+  width: 50%;
+  margin-top: -150px;
+}
+.left{
+  position: absolute;
+  height: auto;
+}
+.right{
+  float: right;
+  width: 50%;
 }
